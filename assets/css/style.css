@@ -1,0 +1,180 @@
+*{
+	font-family: sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+nav img{
+	width: 150px;
+}
+nav a{
+	color: #eaf0ef  !important;
+}
+#home{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/hero_2.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	color: #fff;
+}
+#home .home-center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#home .btn-shop{
+	color: #fff;
+	border: 2px solid #fff;
+	transition: 0.8s;
+}
+#home .btn-shop:hover{
+	color: #000;
+	border: 2px solid #fff;
+	background-color: #fff;
+	transition: 0.8s;
+}
+#home .btn-stard{
+	color: #000;
+	border: 2px solid #fff;
+	background-color: #fff;
+	transition: 0.8s;
+}
+#home .btn-stard:hover{
+	color: #fff;
+	border: 2px solid #fff;
+	background-color: transparent;
+	transition: 0.8s;
+}
+#products{}
+#products .card{
+	border: none !important;
+}
+#products .card-body{
+	box-shadow: 1px 1px 10px #ddd;
+	padding: 0 !important;
+	padding-bottom: 2rem !important;
+}
+#products .btn-products1{
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #000;
+	transition: 0.8s;
+}
+#products .btn-products1:hover{
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #000;
+	transition: 0.8s;
+}
+#products .btn-products2{
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #000;
+	transition: 0.8s;
+}
+#products .btn-products2:hover{
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #000;
+	transition: 0.8s;
+}
+#products .card-img{
+	overflow: hidden;
+}
+#products .card-img img{
+	transition: 0.8s;
+}
+#products .card-img:hover img{
+	transform: scale(1.1);
+}
+#services{}
+#services .card{
+	border: none !important;
+}
+#services .card-body{
+	box-shadow: 1px 1px 10px #ddd;
+}
+#Testmonials{}
+#Testmonials img{
+	width: 290px;
+	border-radius: 50%;
+}
+footer ul li a{
+	color: #fff !important;
+}
+footer i{
+	font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive.css*/
+
+
+@media screen and (max-width: 991px){
+	#home h1{
+		font-size: 3.5rem !important;
+	}
+}
+@media screen and (max-width: 767px){
+	#home h1{
+		font-size: 3rem !important;
+	}
+	#home p{
+		font-size: 1rem;
+	}
+}
+@media screen and (max-width: 575px){
+	#home h1{
+		font-size: 2.5rem !important;
+	}
+	#home p{
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 460px){
+	#home h1{
+		font-size: 2.1rem !important;
+	}
+}
